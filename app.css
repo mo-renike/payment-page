@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(https://cdn.wallpapersafari.com/4/39/fy6v7x.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
+.background{
+    width: 100%;
+    opacity: 0.6;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -22;
 }
+
+
 .wrapper{
     background-color: #112411;
     width: 60%;
@@ -109,7 +115,7 @@ button{
     font-weight: 600;
 }
 button:hover{
-    background-color: rgb(102, 130, 64);
+    text-decoration: underline;
 }
 
 @media screen and (max-width:1088px) {
